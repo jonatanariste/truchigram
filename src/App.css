@@ -1,0 +1,127 @@
+body {
+  background: #fafafa
+}
+
+img {
+  width: 100%;
+}
+
+.top120 {
+  margin-top: 120px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+
+}
+
+.vh100 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.homePic {
+  width: 140px;
+
+}
+
+.cardPic {
+  width: 45px;
+}
+
+.nav {
+  height: 80px;
+  border-bottom: 1px solid rgba(0, 0, 0, .0975);
+  background: white;
+  position: fixed;
+  width: 100%;
+  z-index: 343;
+}
+
+.logo {
+  width: 40px;
+
+}
+
+.margin0 {
+  margin-bottom: 0px !important;
+
+}
+
+.border-right {
+  border-right: 1px solid rgba(0, 0, 0, .0975);
+
+}
+
+.inline {
+  display: inline-block
+}
+
+.fix-nombre {
+  height: 44px;
+
+}
+
+.cardName {
+  margin-left: 8px !important;
+}
+
+.FAB {
+  position: fixed !important;
+  bottom: 100px;
+  right: 100px
+}
+
+.lo {
+  width: 60px;
+}
+
+.upp {
+  background: #f8f8f8;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 123333344;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0px;
+}
+
+#dropdown2 {
+  margin-top: 100px;
+}
+
+
+@media only screen and (max-device-width: 480px),
+only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+  .off {
+    display: none;
+  }
+
+  .top120 {
+    margin-top: 0px
+  }
+
+  .FAB {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .modal {
+    max-height: 40% !important;
+  }
+
+  .modal-content h4 {
+    font-size: 22px
+  }
+}
